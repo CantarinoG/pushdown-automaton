@@ -1,0 +1,7 @@
+O arquivo de input precisa ter esse formato:
+0 //Estado inicial
+1 //Estados finais
+0;0;b;e;A //A partir daqui, cada linha representa uma transição
+0;0;a;e;A //Por exemplo, nessa linha, o estado 0 vai para o estado 0 se lê na fita um 'a' e lê um 'e'(vazio) na pilha, e escreve um 'A' na pilha.
+0;1;c;A;e
+1;1;c;A;e
