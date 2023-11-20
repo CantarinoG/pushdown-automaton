@@ -9,6 +9,7 @@ public class Automato {
     private String estadoInicial;
     private ArrayList<String> estadosFinais = new ArrayList<>();
     private ArrayList<Transicao> listaTransicoes = new ArrayList<>();
+    private String pilha = "";
     
     public Automato(String caminho) {
         carregaArquivo(caminho);
