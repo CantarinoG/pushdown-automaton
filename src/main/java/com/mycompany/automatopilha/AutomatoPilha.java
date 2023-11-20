@@ -15,8 +15,8 @@ public class AutomatoPilha {
         while(!input.equals("SAIR")) {
             System.out.println("Insira uma palavra a ser testada, ou \"SAIR\" para sair:");
             input = scanner.nextLine();
-            //String resultado = auto.testaPalavra(input)?"Aceita":"Rejeitada";
-            //System.out.println(resultado);
+            String resultado = auto.testaPalavra(input)?"Aceita":"Rejeitada";
+            System.out.println(resultado);
         }
         scanner.close();
         
